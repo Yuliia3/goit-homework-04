@@ -1,0 +1,448 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --modal-backround-kolor: #fcfcfc;
+  --header-backround: #ffffff;
+  --image-backround: #2e2f42;
+  --light-backround: #f4f4fd;
+  --acent-color: #e7e9fc;
+  --subtle-text: #8e8f99;
+  --text: #434455;
+  --pressed-state: #404bbf;
+  --pimary-brand: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--header-backround);
+  color: var(--text);
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+
+.list-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.benefits {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+
+.benefits-menu {
+  gap: 24px;
+}
+
+.closing {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.logo-link {
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--pimary-brand);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-right: 76px;
+
+  display: inline-block;
+
+  align-items: center;
+}
+.logo-link:hover {
+  color: var(--pressed-state);
+}
+
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+
+  align-items: center;
+
+  color: var(--light-backround);
+
+  display: inline-block;
+}
+.logo-studio-link {
+  color: var(--image-backround);
+  margin-right: o;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.link-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--image-backround);
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
+}
+
+.link-menu:hover {
+  color: var(--pressed-state);
+}
+.link-menu:focus {
+  color: var(--pressed-state);
+}
+
+.titlel-section {
+  background: var(--image-backround);
+  padding-bottom: 188px;
+  padding-top: 188px;
+}
+
+.main-page-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--header-backround);
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin: 0% auto;
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-order {
+  font-family: "Roboto", sans-serif;
+  background: var(--pimary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  color: var(--header-backround);
+
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+}
+
+.btn-order:hover {
+  background-color: var(--pressed-state);
+}
+
+.btn-order:focus {
+  background-color: var(--pressed-state);
+}
+
+.link-information {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  letter-spacing: 0.02em;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  gap: 40px;
+  display: flex;
+  margin-left: auto;
+}
+
+.link-information:hover {
+  color: var(--pressed-state);
+}
+
+.link-information:focus {
+  color: var(--pressed-state);
+}
+
+.information {
+  background: var(--header-backround);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  gap: 24px;
+}
+.visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title-menu {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--image-backround);
+  margin-bottom: 8px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.container-page {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.subtitle-main-page {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--image-backround);
+
+  margin-bottom: 72px;
+}
+
+.section-team {
+  background: var(--light-backround);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.desc-menu {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--image-backround);
+
+  margin-bottom: 72px;
+}
+
+.images-photo {
+  background: var(--header-backround);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.container-menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--image-backround);
+  margin-bottom: 8px;
+}
+
+.specialty {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+.closing {
+  background: var(--image-backround);
+}
+
+.paragraph-ft {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-backround);
+
+  max-width: 264px;
+}
+
+.main-menu-one {
+  font-family: "Roboto", sans-serif;
+  background: var(--light-backround);
+
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  color: var(--pimary-brand);
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--acent-color);
+}
+
+.menu-text {
+  width: calc((100% - 72px) / 4);
+}
+
+.main-menu-one:hover {
+  color: var(--header-backround);
+}
+
+.main-menu-one:focus {
+  color: var(--header-backround);
+}
+
+.main-menu-one:hover {
+  background-color: var(--pressed-state);
+}
+
+.main-menu-one:focus {
+  background-color: var(--pressed-state);
+}
+.container-img {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border: 1px solid var(--acent-color);
+  border-top: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link-address {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--image-backround);
+
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.section-img {
+  padding-bottom: 120px;
+}
+.img-main-page {
+  margin-right: 24px;
+}
+
+.page-menu-img {
+  width: calc((100% - 48px) / 3);
+}
+.home-page {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.list-images {
+  display: flex;
+  gap: 24px;
+}
+.benefits-menu {
+  display: flex;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.button-list :first-child :hover {
+  border: 1px solid transparent;
+}
+.button-list :first-child :focus {
+  border: 1px solid transparent;
+}
+
+.img-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
