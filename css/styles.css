@@ -372,6 +372,10 @@ img {
   gap: 24px
 ;
 }
+.customers-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .title-customers {
   display: flex;
   align-items: center;
@@ -391,7 +395,7 @@ img {
   width: 168px;
   height: 88px;
 
-  margin-bottom: 72px;
+ 
 }
 .customers-soc-link {
   width: 100%;
