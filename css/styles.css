@@ -89,6 +89,7 @@ color: #FFFFFF;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-bottom: 16px;
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
