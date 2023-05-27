@@ -210,7 +210,10 @@ block-size: cover;
   padding-bottom: 120px;
   gap: 24px;
 }
-.information-soc-item{
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 264px;
   height: 122px;
   background-color:  #F4F4FD;
@@ -234,6 +237,10 @@ block-size: cover;
 }
 .icons {
   margin-bottom: 8px;
+}
+.information-icon {width: 64px;
+  height: 64px;
+
 }
 
 
