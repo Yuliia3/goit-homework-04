@@ -143,7 +143,7 @@ img {
 
 }
 .title-section {
-  max-width: 1140px;
+  max-width: 1440px;
   background-size: cover ;
 }
 
@@ -369,6 +369,8 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 8px;
+  gap: 24px
+;
 }
 .title-customers {
   display: flex;
