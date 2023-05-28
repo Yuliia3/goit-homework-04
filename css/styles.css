@@ -519,6 +519,7 @@ padding-bottom: 120px;
 
 .web-logo {
   gap: 120px;
+  margin-top: 120px;
 }
 
 .main-menu-one {
@@ -537,11 +538,13 @@ padding-bottom: 120px;
   border: 1px solid var(--acent-color);
 }
 .main-menu-one:hover {
+  border-color: transparent;
   background-color: var(--pressed-state);
   color: var(--header-backround);
   box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .main-menu-one:focus {
+  border-color: transparent;
   background-color: var(--pressed-state);
   color: var(--header-backround);
   box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
