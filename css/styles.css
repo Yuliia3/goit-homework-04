@@ -72,7 +72,7 @@ img {
 .closing {
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-top: 120px;
+ 
 }
 .closing-footer {
   display: flex;
@@ -88,8 +88,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 display: flex;
-justify-content: center;
-align-items: center;
+
 margin-bottom: 16px;
 }
 .logo-link {
@@ -102,14 +101,16 @@ margin-bottom: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  margin-right: 76px;
+ 
 
   display: inline-block;
 
   align-items: center;
+  margin-bottom: 16px;
 }
 .logo-link:hover {
   color: var(--pressed-state);
+  
 }
 
 .logo-studio {
@@ -387,6 +388,7 @@ margin-bottom: 16px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text);
+  margin-bottom: 8px;
 }
 
 .name-soc-list {
@@ -406,7 +408,7 @@ margin-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 8px;
+ 
   gap: 24px
 ;
 }
@@ -535,38 +537,36 @@ padding-bottom: 120px;
   border: 1px solid var(--acent-color);
 }
 .main-menu-one:hover {
+  background-color: var(--pressed-state);
+  color: var(--header-backround);
   box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .main-menu-one:focus {
+  background-color: var(--pressed-state);
+  color: var(--header-backround);
   box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .main-img {
   display: block;
+  
 }
 .main-img:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .main-img:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
-.main-menu-one:hover {
-  color: var(--header-backround);
-}
 
-.main-menu-one:focus {
-  color: var(--header-backround);
-}
 
-.main-menu-one:hover {
-  background-color: var(--pressed-state);
-}
 
-.main-menu-one:focus {
-  background-color: var(--pressed-state);
-}
+
+
+
+
+
 .container-img {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -648,12 +648,8 @@ padding-bottom: 120px;
   margin-bottom: 72px;
 }
 
-.button-list :first-child :hover {
-  border: 1px solid transparent;
-}
-.button-list :first-child :focus {
-  border: 1px solid transparent;
-}
+
+
 
 .img-list {
   display: flex;
