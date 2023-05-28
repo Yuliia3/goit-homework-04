@@ -11,6 +11,7 @@
   --text: #434455;
   --pressed-state: #404bbf;
   --pimary-brand: #4d5ae5;
+  --success: #31d0aa;
 }
 
 body {
@@ -89,7 +90,7 @@ color: #FFFFFF;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-bottom: 16px;
+margin-bottom: 72px;
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -502,7 +503,7 @@ margin-bottom: 72px;
 
 }
 .footer-soc-link:focus {
-  background-color: #31d0aa;
+  background-color: var(#31d0aa);
 }
 .footer-soc-icon {
   fill: var(--light-backround);
