@@ -357,6 +357,8 @@ margin-bottom: 16px;
 .images-photo {
   background: var(--header-backround);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+		0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .container-menu {
@@ -416,7 +418,7 @@ padding-bottom: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 120px;
+ 
   font-size: 36px;
   line-height: 1.11;
   color: var(--image-backround);
@@ -532,9 +534,21 @@ padding-bottom: 120px;
   padding: 12px 24px;
   border: 1px solid var(--acent-color);
 }
+.main-menu-one:hover {
+  box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.main-menu-one:focus {
+  box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .main-img {
   display: block;
+}
+.main-img:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.main-img:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -561,6 +575,7 @@ padding-bottom: 120px;
   border: 1px solid var(--acent-color);
   border-top: none;
 }
+
 
 .list {
   list-style: none;
