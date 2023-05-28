@@ -160,6 +160,7 @@ margin-bottom: 16px;
   background-position: center;
   block-size: cover;
 
+
 }
 .title-section {
   max-width: 1440px;
@@ -268,6 +269,7 @@ margin-bottom: 16px;
   width: 64px;
   height: 64px;
 }
+
 
 .visualy-hidden {
   position: absolute;
