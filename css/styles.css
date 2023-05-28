@@ -249,6 +249,7 @@ margin-bottom: 16px;
   height: 122px;
   background-color: #f4f4fd;
   border-radius: 4px;
+  height: 122px;
 }
 .information-soc-list {
   display: flex;
@@ -268,6 +269,18 @@ margin-bottom: 16px;
 .information-icon {
   width: 64px;
   height: 64px;
+}
+
+
+
+.name-soc-link:hover {
+  background-color: #404bbf;
+}
+.name-soc-link:focus {
+  background-color: #404bbf;
+}
+.name-soc-icon {
+  fill: #f4f4fd;
 }
 
 
@@ -375,7 +388,7 @@ margin-bottom: 16px;
 .name-soc-list {
   display: flex;
   justify-content: center;
-  gap: 10px;
+ gap: 24px;
 }
 .name-soc-item {
   width: 40px;
@@ -394,8 +407,8 @@ margin-bottom: 16px;
 ;
 }
 .customers-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .title-customers {
   display: flex;
@@ -406,6 +419,9 @@ margin-bottom: 16px;
   line-height: 1.11;
   color: var(--image-backround);
   margin-bottom: 72px;
+}
+.title-customers {
+margin-bottom: 72px;
 }
 .customers {
   width: 1128px;
@@ -426,7 +442,10 @@ margin-bottom: 16px;
   justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  color: var(--image-backround);
+  
+}
+.customers-soc-link {
+  color: var(#8e8f99);
 }
 .customers-soc-link:hover {
   border-color: #404bbf;
@@ -491,9 +510,10 @@ margin-bottom: 16px;
   border: 1px solid var(--acent-color);
 }
 
-.menu-text {
-  width: calc((100% - 72px) / 4);
+.main-img {
+  display: block;
 }
+
 
 .main-menu-one:hover {
   color: var(--header-backround);
