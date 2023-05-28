@@ -507,6 +507,10 @@ margin-bottom: 72px;
 .footer-soc-icon {
   fill: var(--light-backround);
 }
+.social-link {
+  margin-left: 120px;
+}
+
 
 
 .web-logo {
