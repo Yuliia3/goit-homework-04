@@ -451,7 +451,7 @@ padding-bottom: 120px;
   color: var(--subtle-text);
 }
 .customers-soc-link:hover {
-  border-color: #404bbf;
+ border-color: #404bbf;
   color: #404bbf;
 }
 .customers-soc-link:focus {
@@ -500,11 +500,11 @@ padding-bottom: 120px;
   align-items: center;
   justify-content: center;
 }
-.footer-soc-link:hover { background-color: var(--success);
+.footer-soc-link:hover { background-color:#31d0aa;
 
 }
 .footer-soc-link:focus {
-  background-color: var(--success);
+  background-color:#31d0aa;
 }
 .footer-soc-icon {
   fill: var(--light-backround);
