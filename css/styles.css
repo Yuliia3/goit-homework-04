@@ -106,7 +106,7 @@ margin-bottom: 16px;
   display: inline-block;
 
   align-items: center;
-  margin-bottom: 16px;
+ margin-right: 76px;
 }
 .logo-link:hover {
   color: var(--pressed-state);
@@ -512,7 +512,24 @@ padding-bottom: 120px;
   fill: var(--light-backround);
 }
 .social-link {
-  margin-left: 120px;
+  
+}
+.logo-link-footer {
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--pimary-brand);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+ 
+
+  display: inline-block;
+
+  align-items: center;
+  margin-bottom: 16px;
 }
 
 
